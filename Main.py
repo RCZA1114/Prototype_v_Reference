@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 from measures import *
 #import seaborn as sns
-from scipy.stats import ttest_ind
+###from scipy.stats import ttest_ind
 
 
 
