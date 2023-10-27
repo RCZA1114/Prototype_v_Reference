@@ -26,7 +26,7 @@ stdev = data[selected_measurement].std()
 
 Reference = data[data["Unit"] == "Reference"]
 Prototype = data[data["Unit"] == "Prototype"]
-t_test = ttest_ind(Reference[selected_measurement], Prototype[selected_measurement])
+##t_test = ttest_ind(Reference[selected_measurement], Prototype[selected_measurement])
 
 st.write(t_test)
 
